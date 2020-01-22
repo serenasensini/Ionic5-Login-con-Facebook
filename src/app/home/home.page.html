@@ -1,14 +1,10 @@
-<ion-content class="facebook-bg">
-  <div class="main">
-    <ion-row>
-      <ion-col>
-        <ion-text class="title">Autenticazione con Facebook</ion-text>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <ion-button expand="full" color="primary" (click)="login()">Accedi con Facebook</ion-button>
-      </ion-col>
-    </ion-row>
+<ion-header>
+  <ion-toolbar color="primary">
+    <p>Autenticazione con Facebook</p>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <div>
+    <ion-button expand="block" color="primary" fill="outline" (click)="login()">Accedi con Facebook</ion-button>
   </div>
 </ion-content>
